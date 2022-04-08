@@ -2,6 +2,7 @@
   "name": "art-collection",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,8 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "asyncairtable": "^2.1.0",
+    "bootstrap": "5.1.3",
     "next": "12.1.1",
     "react": "17.0.2",
+    "react-bootstrap": "^2.2.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
